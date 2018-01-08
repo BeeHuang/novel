@@ -14,6 +14,6 @@ services:
   spring:
     build:
       context: .
-      dockerfile: nginx.Dockerfile
+      dockerfile: spring.Dockerfile
     ports:
       - '8080:8080'
