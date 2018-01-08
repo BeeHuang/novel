@@ -10,9 +10,10 @@ services:
       dockerfile: nginx.Dockerfile
     ports:
       - '80:80'
+
   spring:
     build:
-    context: .
-      dockerfile: spring.Dockerfile
+      context: .
+      dockerfile: nginx.Dockerfile
     ports:
-      - '8080:8080' 
+      - '8080:8080'
