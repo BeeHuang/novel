@@ -18,11 +18,12 @@ services:
     # ports:
       # - '8080:8080'
 
-  react:
-    build:
-      context: .
-      dockerfile: react.Dockerfile
-    # ports:
-      # - '3000:3000'
-    volumes:
-      - ./novel-react:/src
+  # can not live code
+  # react:
+  #   build:
+  #     context: .
+  #     dockerfile: react.Dockerfile
+  #   ports:
+  #     - '3000:3000'
+  #   volumes:
+  #     - ./novel-react:/src
