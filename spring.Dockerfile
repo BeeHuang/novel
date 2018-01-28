@@ -1,2 +1,2 @@
-FROM beehuang/lda
+FROM beehuang/lda:latest
 
